@@ -1,0 +1,31 @@
+{
+  "name": "111610-tax-re-sys",
+  "version": "1.0.0",
+  "engines": {
+    "node": "13.14.0"
+  },
+  "description": "Server de la API Rest del proyecto TaxReSys",
+  "main": "src/server.js",
+  "scripts": {
+    "devStart": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Angel Gabriel Zaragoza",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.6",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
